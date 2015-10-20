@@ -4,10 +4,10 @@
 # Dealer hits on soft 17.
 # The learnt strategy can be saved into a file.
 
-# For manual play, line692 set1=0; line722 set3=0; line749 deactivate set4
-# For random autoplay only, line692 set1=1, adjust set2; line722 set3=0; line749 deactivate set4
-# For a random then a smart autoplay: line692 set1=1, adjust set2; line722 set3=0; line749 activate set 4; line757 adjust set5
-# For (random then smart autoplay) repeat n>1 times, line692 set1=1; line722 set3=n; line781&787 adjust set6&7
+# For manual play, line720 set1=0; line750 set3=0; line778 deactivate set4
+# For random autoplay only, line720 set1=1, adjust set2; line750 set3=0; line778 deactivate set4
+# For a random then a smart autoplay: line720 set1=1, adjust set2; line750 set3=0; line778 activate set 4; line786 adjust set5
+# For (random then smart autoplay) repeat n>1 times, line720 set1=1; line750 set3=n; line817&824 adjust set6&7
 
 import random
 import time
